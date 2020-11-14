@@ -6,9 +6,9 @@ namespace BehavioralPatterns.Strategy
 {
     public class WalkRoute : IRoutePlanningStrategy
     {
-        public void planningBestRoute(string origin, string destiny)
+        public string planningBestRoute(string origin, string destiny)
         {
-            Console.WriteLine("This is the best route to go from " + origin + " to " + destiny+ " by walking.");
+            return "This is the best route to go from " + origin + " to " + destiny+ " by walking.";
         }
     }
 }

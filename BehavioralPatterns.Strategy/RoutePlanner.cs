@@ -18,7 +18,7 @@ namespace BehavioralPatterns.Strategy
 
         public void CalculateRoute()
         {
-            _routeStrategy.planningBestRoute(Origin,Destiny);
+           Console.WriteLine(_routeStrategy.planningBestRoute(Origin,Destiny));
         }
     }
 }

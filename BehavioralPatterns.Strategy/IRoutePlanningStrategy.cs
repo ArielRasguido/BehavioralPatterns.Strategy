@@ -6,6 +6,6 @@ namespace BehavioralPatterns.Strategy
 {
     public interface IRoutePlanningStrategy
     {
-        void planningBestRoute(string origin, string destiny);
+        string planningBestRoute(string origin, string destiny);
     }
 }

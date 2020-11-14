@@ -6,9 +6,9 @@ namespace BehavioralPatterns.Strategy
 {
     public class CarRoute : IRoutePlanningStrategy
     {
-        public void planningBestRoute(string origin, string destiny)
+        public string planningBestRoute(string origin, string destiny)
         {
-            Console.WriteLine("This is the best route to go from "+origin+" to "+destiny+ " by car.");
+            return "This is the best route to go from "+origin+" to "+destiny+ " by car.";
         }
     }
 }
