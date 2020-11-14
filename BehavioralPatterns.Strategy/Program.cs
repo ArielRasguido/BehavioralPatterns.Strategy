@@ -6,7 +6,8 @@ namespace BehavioralPatterns.Strategy
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NavigationApp navigationApp = new NavigationApp();
+            navigationApp.showMenu();
         }
     }
 }
